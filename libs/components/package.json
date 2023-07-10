@@ -1,17 +1,17 @@
 {
   "name": "@rdsystem/components",
   "version": "1.1.0",
-  "description": "This library is part of project React Design System",
+  "description": "This library is part of project Continente Troca de Óleo",
   "author": "Diego Adilson Vieira <diegoavieira@gmail.com>",
   "license": "MIT",
   "main": "index.js",
   "types": "index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/diegoavieira/rdsystem.git"
+    "url": "https://github.com/diegoavieira/continentetrocadeoleo.git"
   },
-  "homepage": "https://diegoavieira.github.io/rdsystem",
-  "bugs": "https://github.com/diegoavieira/rdsystem/issues",
+  "homepage": "https://diegoavieira.github.io/continentetrocadeoleo",
+  "bugs": "https://github.com/diegoavieira/continentetrocadeoleo/issues",
   "publishConfig": {
     "access": "public"
   },

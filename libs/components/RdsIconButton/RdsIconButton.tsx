@@ -4,7 +4,7 @@ import RdsIconButtonProps from './RdsIconButton.props';
 import RdsIconButtonStyles from './RdsIconButton.styles';
 
 /**
- * [RdsIconButton Examples](https://diegoavieira.github.io/rdsystem/components/rds-icon-button)
+ * [RdsIconButton Examples](https://diegoavieira.github.io/continentetrocadeoleo/components/rds-icon-button)
  */
 const RdsIconButton: FC<RdsIconButtonProps> = ({
   classes,

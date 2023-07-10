@@ -16,7 +16,7 @@ const Toolbar = withStyles((theme: Theme) =>
 )(MuiToolbar);
 
 /**
- * [RdsHeader Examples](https://diegoavieira.github.io/rdsystem/components/rds-header)
+ * [RdsHeader Examples](https://diegoavieira.github.io/continentetrocadeoleo/components/rds-header)
  */
 const RdsHeader: FC<RdsHeaderProps> = ({ children, fixed, color, onToggle, classes, document, toggleTooltip }) => {
   return (

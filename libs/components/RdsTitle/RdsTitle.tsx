@@ -5,7 +5,7 @@ import RdsTitleStyles from './RdsTitle.styles';
 import clsx from 'clsx';
 
 /**
- * [RdsTitle Examples](https://diegoavieira.github.io/rdsystem/components/rds-title)
+ * [RdsTitle Examples](https://diegoavieira.github.io/continentetrocadeoleo/components/rds-title)
  */
 const RdsTitle: FC<RdsTitleProps> = ({ classes, type, children, color, light, margin = 0 }) => {
   return (

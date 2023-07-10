@@ -5,7 +5,7 @@ import RdsLoadingStyles from './RdsLoading.styles';
 import clsx from 'clsx';
 
 /**
- * [RdsLoading Examples](https://diegoavieira.github.io/rdsystem/components/rds-loading)
+ * [RdsLoading Examples](https://diegoavieira.github.io/continentetrocadeoleo/components/rds-loading)
  */
 const RdsLoading: FC<RdsLoadingProps> = ({ classes, toggle = true, notHasHeader }) => {
   useEffect(() => {

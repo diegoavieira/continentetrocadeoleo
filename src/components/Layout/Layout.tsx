@@ -1,79 +1,56 @@
-import React, { FC, Suspense, useEffect, useState } from 'react';
+import React, { FC, Suspense } from 'react';
 import { BrowserRouter, Switch } from 'react-router-dom';
-import { ThemeOptions, useTheme, useMediaQuery } from '@material-ui/core';
-import { BrightnessHigh as BrightnessHighIcon, BrightnessLow as BrightnessLowIcon } from '@material-ui/icons';
+import { ThemeOptions } from '@material-ui/core';
+import { WhatsApp } from '@material-ui/icons';
 import {
   RdsMain,
   RdsContent,
-  RdsDrawer,
   RdsHeader,
-  RdsNav,
   RdsTheme,
   RdsTitle,
   RdsLoading,
+  RdsImage,
   RdsIconButton
 } from '@rdsystem/components';
 import LayoutProps from './Layout.props';
+import logo from '../../assets/gota.svg';
+import { whatsapp } from 'src/constants/links';
 
-const Layout: FC<LayoutProps> = ({ children, drawerNavItems }) => {
+const Layout: FC<LayoutProps> = ({ children }) => {
   const production = process.env.NODE_ENV === 'production';
-  const isMobile = useMediaQuery(useTheme().breakpoints.down('sm'));
-  const [toggle, setToggle] = useState(true);
-  const [type, setType] = useState<'light' | 'dark'>('light');
-
-  const onToggle = () => setToggle(!toggle);
-  const onType = () => setType(type === 'light' ? 'dark' : 'light');
 
   const theme: ThemeOptions = {
     palette: {
-      type,
+      type: 'dark',
       primary: {
-        light: '#80e27e',
-        main: '#4caf50',
-        dark: '#087f23',
-        contrastText: '#fff'
+        light: '#fcf7be',
+        main: '#F4E501',
+        dark: '#f3b800',
+        contrastText: 'rgba(0, 0, 0, 0.87)'
       },
       secondary: {
-        light: '#ffff8b',
-        main: '#ffee58',
-        dark: '#c9bc1f',
-        contrastText: 'rgba(0, 0, 0, 0.87)'
+        light: '#b599ff',
+        main: '#4c1fff',
+        dark: '#0111f4',
+        contrastText: '#fff'
       }
     }
   };
 
-  useEffect(() => {
-    if (isMobile) {
-      setToggle(false);
-    }
-  }, [isMobile]);
-
   return (
-    <BrowserRouter basename={production ? '/rdsystem' : '/'}>
+    <BrowserRouter basename={production ? '/continentetrocadeoleo' : '/'}>
       <RdsTheme theme={theme}>
         <RdsContent hasHeaderFixed hasDrawer>
-          <RdsHeader
-            fixed
-            onToggle={onToggle}
-            toggleTooltip="Toggle open/close drawer"
-            color={type === 'light' ? 'primary' : 'inherit'}
-          >
-            <RdsTitle type="span" margin="0 auto 0 0">
-              React Design System
+          <RdsHeader fixed color="inherit">
+            <RdsImage src={logo} height={38} />
+            <RdsTitle type="span" margin="0 auto 0 16px">
+              Continente Troca de Óleo
             </RdsTitle>
-            <RdsIconButton margin="0 -8px 0 0" color="inherit" onClick={onType} tooltip="Toggle ligh/dark theme">
-              {type === 'light' ? <BrightnessHighIcon /> : <BrightnessLowIcon />}
+            <RdsIconButton tooltip="WhatsApp" onClick={() => window.open(whatsapp, '_blank')} margin="0 -12px 0 0">
+              <WhatsApp />
             </RdsIconButton>
           </RdsHeader>
-          <RdsDrawer hasHeaderFixed isMobile={isMobile} toggle={toggle} onToggle={onToggle}>
-            <RdsNav
-              nested={production ? 1 : 0}
-              items={drawerNavItems}
-              toggle={toggle}
-              onToggle={isMobile ? onToggle : undefined}
-            />
-          </RdsDrawer>
-          <RdsMain>
+          <RdsMain fixed>
             <Suspense fallback={<RdsLoading />}>
               <Switch>{children}</Switch>
             </Suspense>

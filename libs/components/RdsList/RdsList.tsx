@@ -7,7 +7,7 @@ import RdsListItemProps from '../RdsListItem/RdsListItem.props';
 import clsx from 'clsx';
 
 /**
- * [RdsList Examples](https://diegoavieira.github.io/rdsystem/components/rds-list)
+ * [RdsList Examples](https://diegoavieira.github.io/continentetrocadeoleo/components/rds-list)
  */
 const RdsList: FC<RdsListProps> = ({ classes, items, nested = 0 }) => {
   const [expanded, setExpanded] = useState<string | false>(false);

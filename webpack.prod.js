@@ -11,5 +11,5 @@ module.exports = merge(webpackCommon, {
     filename: '[name].[contenthash].js',
     clean: true
   },
-  plugins: [new CleanWebpackPlugin(), new BaseHrefWebpackPlugin({ baseHref: '/rdsystem/' })]
+  plugins: [new CleanWebpackPlugin(), new BaseHrefWebpackPlugin({ baseHref: '/continentetrocadeoleo/' })]
 });

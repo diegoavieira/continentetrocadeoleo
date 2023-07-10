@@ -15,7 +15,7 @@ const RdsIconButtonStyled = withStyles(() =>
 )(RdsIconButton);
 
 /**
- * [RdsAvatar Examples](https://diegoavieira.github.io/rdsystem/components/rds-avatar)
+ * [RdsAvatar Examples](https://diegoavieira.github.io/continentetrocadeoleo/components/rds-avatar)
  */
 const RdsAvatar: FC<RdsAvatarProps> = ({ classes, items, src, document, tooltip }) => {
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);

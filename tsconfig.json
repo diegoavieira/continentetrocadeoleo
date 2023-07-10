@@ -21,8 +21,6 @@
       "@components/*": ["src/components/*"],
       "@pages": ["src/pages"],
       "@pages/*": ["src/pages/*"],
-      "@docs": ["src/docs"],
-      "@docs/*": ["src/docs/*"],
       "@rdsystem/components": ["libs/components"],
       "@rdsystem/components/*": ["libs/components/*"]
     }

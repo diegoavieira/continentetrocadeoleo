@@ -3,7 +3,7 @@ import React, { forwardRef, Ref } from 'react';
 import RdsFormProps from './RdsForm.props';
 
 /**
- * [RdsForm Examples](https://diegoavieira.github.io/rdsystem/components/rds-form)
+ * [RdsForm Examples](https://diegoavieira.github.io/continentetrocadeoleo/components/rds-form)
  */
 const RdsForm = <Values,>(
   { children, validationSchema, initialValues, onSubmit, onReset, id }: RdsFormProps<Values>,

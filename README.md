@@ -1,11 +1,11 @@
-# React Design System
+# Continente Troca de Óleo
 
-[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/diegoavieira/rdsystem/blob/master/LICENSE)
-[![test workflow](https://github.com/diegoavieira/rdsystem/actions/workflows/test.yml/badge.svg)](https://github.com/diegoavieira/rdsystem/actions/workflows/test.yml)
-[![publish workflow](https://github.com/diegoavieira/rdsystem/actions/workflows/publish.yml/badge.svg)](https://github.com/diegoavieira/rdsystem/actions/workflows/publish.yml)
-[![deploy workflow](https://github.com/diegoavieira/rdsystem/actions/workflows/deploy.yml/badge.svg)](https://github.com/diegoavieira/rdsystem/actions/workflows/deploy.yml)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/diegoavieira/continentetrocadeoleo/blob/master/LICENSE)
+[![test workflow](https://github.com/diegoavieira/continentetrocadeoleo/actions/workflows/test.yml/badge.svg)](https://github.com/diegoavieira/continentetrocadeoleo/actions/workflows/test.yml)
+[![publish workflow](https://github.com/diegoavieira/continentetrocadeoleo/actions/workflows/publish.yml/badge.svg)](https://github.com/diegoavieira/continentetrocadeoleo/actions/workflows/publish.yml)
+[![deploy workflow](https://github.com/diegoavieira/continentetrocadeoleo/actions/workflows/deploy.yml/badge.svg)](https://github.com/diegoavieira/continentetrocadeoleo/actions/workflows/deploy.yml)
 
-Access the [documentation](https://diegoavieira.github.io/rdsystem) for more information.
+Access the [documentation](https://diegoavieira.github.io/continentetrocadeoleo) for more information.
 
 ## Development
 
@@ -17,7 +17,7 @@ npm start
 
 ## Test
 
-Unit testing coverage can be found in the directory `/coverage/index.html` or [documentation test coverage](https://diegoavieira.github.io/rdsystem/coverage/index.html).
+Unit testing coverage can be found in the directory `/coverage/index.html` or [documentation test coverage](https://diegoavieira.github.io/continentetrocadeoleo/coverage/index.html).
 
 ```sh
 npm run test

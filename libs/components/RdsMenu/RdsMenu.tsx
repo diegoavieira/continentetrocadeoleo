@@ -5,7 +5,7 @@ import RdsMenuStyles from './RdsMenu.styles';
 import RdsList from '../RdsList';
 
 /**
- * [RdsMenu Examples](https://diegoavieira.github.io/rdsystem/components/rds-menu)
+ * [RdsMenu Examples](https://diegoavieira.github.io/continentetrocadeoleo/components/rds-menu)
  */
 const RdsMenu: FC<RdsMenuProps> = ({ children, items, anchorEl, onClose, document }) => {
   return (

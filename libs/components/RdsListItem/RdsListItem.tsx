@@ -17,7 +17,7 @@ import RdsList from '../RdsList';
 import clsx from 'clsx';
 
 /**
- * [RdsListItem Examples](https://diegoavieira.github.io/rdsystem/components/rds-list-item)
+ * [RdsListItem Examples](https://diegoavieira.github.io/continentetrocadeoleo/components/rds-list-item)
  */
 const RdsListItem: FC<RdsListItemProps> = ({ classes, item, expanded, onExpand, nested = 0 }) => {
   const onClick = (item: RdsListItemProps['item']) => {

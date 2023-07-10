@@ -5,7 +5,7 @@ import RdsDrawerStyles from './RdsDrawer.styles';
 import clsx from 'clsx';
 
 /**
- * [RdsDrawer Examples](https://diegoavieira.github.io/rdsystem/components/rds-drawer)
+ * [RdsDrawer Examples](https://diegoavieira.github.io/continentetrocadeoleo/components/rds-drawer)
  */
 const RdsDrawer: FC<RdsDrawerProps> = ({ hasHeaderFixed, onToggle, toggle, isMobile, classes, children, document }) => {
   const [variant, setVariant] = useState<'permanent' | 'temporary'>('permanent');

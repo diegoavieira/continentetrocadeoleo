@@ -4,7 +4,7 @@ import RdsImageProps from './RdsImage.props';
 import RdsImageStyles from './RdsImage.styles';
 
 /**
- * [RdsImage Examples](https://diegoavieira.github.io/rdsystem/components/rds-image)
+ * [RdsImage Examples](https://diegoavieira.github.io/continentetrocadeoleo/components/rds-image)
  */
 const RdsImage: FC<RdsImageProps> = ({ classes, src, width, height, fit }) => {
   return (

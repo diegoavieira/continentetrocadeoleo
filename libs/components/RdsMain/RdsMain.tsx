@@ -5,7 +5,7 @@ import RdsMainStyles from './RdsMain.styles';
 import clsx from 'clsx';
 
 /**
- * [RdsMain Examples](https://diegoavieira.github.io/rdsystem/components/rds-main)
+ * [RdsMain Examples](https://diegoavieira.github.io/continentetrocadeoleo/components/rds-main)
  */
 const RdsMain: FC<RdsMainProps> = ({ children, fixed, classes }) => {
   return (

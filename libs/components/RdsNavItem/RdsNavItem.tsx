@@ -17,7 +17,7 @@ import RdsNavItemStyles from './RdsNavItem.styles';
 import clsx from 'clsx';
 
 /**
- * [RdsNavItem Examples](https://diegoavieira.github.io/rdsystem/components/rds-nav-item)
+ * [RdsNavItem Examples](https://diegoavieira.github.io/continentetrocadeoleo/components/rds-nav-item)
  */
 const RdsNavItem: FC<RdsNavItemProps> = ({
   item,

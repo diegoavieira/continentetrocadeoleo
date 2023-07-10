@@ -1,9 +1,9 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import Sandbox from './Sandbox';
+import HomePage from './HomePage';
 
-describe('<Sandbox />', () => {
+describe('<HomePage />', () => {
   test('should has rendered', () => {
-    render(<Sandbox demo={<p></p>} code={<pre></pre>} />);
+    render(<HomePage />);
   });
 });

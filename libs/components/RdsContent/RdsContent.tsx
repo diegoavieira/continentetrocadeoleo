@@ -7,6 +7,9 @@ import clsx from 'clsx';
 const CssBaselineStyled = withStyles((theme: Theme) =>
   createStyles({
     '@global': {
+      body: {
+        overflow: 'clip'
+      },
       '.rds-scrollbar': {
         overflow: 'overlay'
       },
@@ -35,7 +38,7 @@ const CssBaselineStyled = withStyles((theme: Theme) =>
 )(CssBaseline);
 
 /**
- * [RdsContent Examples](https://diegoavieira.github.io/rdsystem/components/rds-content)
+ * [RdsContent Examples](https://diegoavieira.github.io/continentetrocadeoleo/components/rds-content)
  */
 const RdsContent: FC<RdsContentProps> = ({ children, hasDrawer, hasHeaderFixed, hasFooter, classes }) => {
   return (

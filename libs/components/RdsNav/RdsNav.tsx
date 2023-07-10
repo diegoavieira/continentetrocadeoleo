@@ -6,7 +6,7 @@ import RdsNavItem from '../RdsNavItem';
 import RdsNavItemProps from '../RdsNavItem/RdsNavItem.props';
 
 /**
- * [RdsNav Examples](https://diegoavieira.github.io/rdsystem/components/rds-nav)
+ * [RdsNav Examples](https://diegoavieira.github.io/continentetrocadeoleo/components/rds-nav)
  */
 const RdsNav: FC<RdsNavProps> = ({
   items: itemsList,

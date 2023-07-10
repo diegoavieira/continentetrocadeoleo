@@ -29,7 +29,7 @@ const TableCellStyled = withStyles((theme: Theme) =>
 )(TableCell);
 
 /**
- * [RdsTable Examples](https://diegoavieira.github.io/rdsystem/components/rds-table)
+ * [RdsTable Examples](https://diegoavieira.github.io/continentetrocadeoleo/components/rds-table)
  */
 const RdsTable: FC<RdsTableProps> = ({ classes, height = 'auto', columns }) => {
   console.log(columns);

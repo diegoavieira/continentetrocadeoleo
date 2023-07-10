@@ -29,7 +29,9 @@ module.exports = {
       },
       {
         test: /\.(png|svg|jpe?g|gif|eot|ttf|woff)$/i,
-        type: 'asset/resource'
+        use: {
+          loader: 'file-loader'
+        }
       },
       {
         test: /\.txt$/i,

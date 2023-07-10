@@ -81,7 +81,7 @@ const useSearchDebounce = (onSearch?: (value: string) => void, delay = 0) => {
 };
 
 /**
- * [RdsField Examples](https://diegoavieira.github.io/rdsystem/components/rds-field)
+ * [RdsField Examples](https://diegoavieira.github.io/continentetrocadeoleo/components/rds-field)
  */
 const RdsField: FC<RdsFieldProps> = ({
   classes,

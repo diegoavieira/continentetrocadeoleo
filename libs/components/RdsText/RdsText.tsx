@@ -5,7 +5,7 @@ import RdsTextStyles from './RdsText.styles';
 import clsx from 'clsx';
 
 /**
- * [RdsText Examples](https://diegoavieira.github.io/rdsystem/components/rds-text)
+ * [RdsText Examples](https://diegoavieira.github.io/continentetrocadeoleo/components/rds-text)
  */
 const RdsText: FC<RdsTextProps> = ({ classes, type, children, color, light, align, margin = 0, onClick }) => {
   return (

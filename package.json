@@ -1,5 +1,5 @@
 {
-  "name": "rdsystem",
+  "name": "continentetrocadeoleo",
   "version": "0.0.0-lerna",
   "private": true,
   "scripts": {
@@ -25,6 +25,7 @@
     "@material-ui/pickers": "^3.3.10",
     "axios": "^0.24.0",
     "clsx": "^1.1.1",
+    "fg-loadcss": "^2.0.1",
     "formik": "^2.2.9",
     "highlight.js": "^11.3.1",
     "marked": "^3.0.7",
@@ -71,6 +72,7 @@
     "eslint-plugin-react": "^7.26.0",
     "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-webpack-plugin": "^3.0.1",
+    "file-loader": "^6.2.0",
     "fork-ts-checker-webpack-plugin": "^6.3.3",
     "fs-extra": "^10.0.0",
     "glob": "^7.1.7",
