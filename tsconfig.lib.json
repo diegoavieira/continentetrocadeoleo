@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig",
+  "compilerOptions": {
+    "declaration": true,
+    "noEmit": false,
+    "emitDeclarationOnly": true,
+    "outDir": "./dist",
+    "rootDir": "./libs",
+    "types": ["react", "node"]
+  },
+  "include": ["./libs"],
+  "exclude": ["./libs/**/*.spec.tsx"]
+}

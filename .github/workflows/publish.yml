@@ -1,0 +1,27 @@
+name: publish
+
+on:
+  push:
+    tags:
+      - '*'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14.x'
+          registry-url: 'https://registry.npmjs.org'
+
+      - run: npm install
+      - run: npm install --save @babel/cli @babel/preset-typescript
+      - run: npm run test
+      - run: npm run build:libs
+      - run: npm publish dist/components
+        # - run: npm publish dist/utils
+
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
