@@ -1,9 +1,6 @@
 # Continente Troca de Óleo
 
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/diegoavieira/continentetrocadeoleo/blob/master/LICENSE)
-[![test workflow](https://github.com/diegoavieira/continentetrocadeoleo/actions/workflows/test.yml/badge.svg)](https://github.com/diegoavieira/continentetrocadeoleo/actions/workflows/test.yml)
-[![publish workflow](https://github.com/diegoavieira/continentetrocadeoleo/actions/workflows/publish.yml/badge.svg)](https://github.com/diegoavieira/continentetrocadeoleo/actions/workflows/publish.yml)
-[![deploy workflow](https://github.com/diegoavieira/continentetrocadeoleo/actions/workflows/deploy.yml/badge.svg)](https://github.com/diegoavieira/continentetrocadeoleo/actions/workflows/deploy.yml)
 
 Access the [documentation](https://diegoavieira.github.io/continentetrocadeoleo) for more information.
 
